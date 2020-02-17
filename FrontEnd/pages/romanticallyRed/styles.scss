@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40vh 30vh 30vh;
+    grid-gap: 10px;
+    grid-template-areas: "info    photo photo photo   photo" "comment photo photo photo   photo" "comment tag     tag   album rotate"
+  }
+  
+  .photo {
+    grid-area: photo;
+    background: yellow;
+    background-size: 1em; /* <-- background size */
+    background-position: center; /* <-- background position */
+  }
+  .photo img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .info {
+    grid-area: info;
+    background: pink;
+  }
+  
+  .tag {
+    grid-area: tag;
+    background: teal;
+  }
+  
+  .comment {
+    grid-area: comment;
+    background: green;
+  }
+  
+  .album {
+    grid-area: album;
+    background: red;
+  }
+  
+  .rotate {
+    grid-area: rotate;
+    background: blue;
+  }

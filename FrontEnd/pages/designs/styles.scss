@@ -1,0 +1,36 @@
+     .designs-page{
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        box-shadow: 0 10px 20px rgb(164, 116, 209);
+        border-radius: 5px;
+         width: 100%;
+         height: auto;
+       
+            .grid{
+                display: grid;
+                //grid-template-columns: repeat(auto-fit, minmax(120px, 0.5fr)) ;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto;
+                grid-gap: 100px;
+                //background-color: #2196F3;
+                padding: 10px;
+                justify-content: center;
+            
+                & > div{
+                    //background-color: rgb(255, 255, 0.8);
+
+                    border: 1px solid rgb(0, 0, 0.8);
+                    padding: 20px;
+                    //font-size: 30px;
+                   // text-align: center;
+                }
+
+                img {
+                    box-shadow: 0 0 5px gray;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: auto;
+                    border:5px solid rgba(189, 103, 192, 0.514); 
+                }
+            }
+    
+        }

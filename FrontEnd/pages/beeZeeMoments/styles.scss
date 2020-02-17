@@ -1,0 +1,12 @@
+.moments-page {
+    .about-page-image{
+        height: 470px;
+        width: 1040px;
+        //background-color: red;
+        background-image: url(/static/images/BeeZeePics/Home.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        backface-visibility: hidden;
+        background-size: cover;
+    }
+}
